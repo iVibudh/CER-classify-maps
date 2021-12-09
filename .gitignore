@@ -2,6 +2,12 @@
 # pdf
 *.pdf
 
+#Python cache file
+*.pyc
+
+#Model
+.sav
+
 # JPEG
 *.jpg
 *.jpeg
