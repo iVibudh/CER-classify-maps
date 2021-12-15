@@ -3,8 +3,14 @@ At CER, we receive applications from companies containing thousands of pages of 
 
 ##### Sample Maps:
 
+<img src="https://github.com/iVibudh/CER-classify-maps/blob/main/images/map_1.PNG" alt="map_1.png" width="500" />
+<img src="https://github.com/iVibudh/CER-classify-maps/blob/main/images/map_2.PNG" alt="map_2.png" width="500" />
+<img src="https://github.com/iVibudh/CER-classify-maps/blob/main/images/map_3.PNG" alt="map_3.png" width="500" />
 
 ##### Sample Non-Maps:
+<img src="https://github.com/iVibudh/CER-classify-maps/blob/main/images/map_1.PNG" alt="page_1.png" width="500" />
+<img src="https://github.com/iVibudh/CER-classify-maps/blob/main/images/map_2.PNG" alt="page_2.png" width="500" />
+<img src="https://github.com/iVibudh/CER-classify-maps/blob/main/images/map_3.PNG" alt="page_3.png" width="500" />
 
 
 ## Approach 
