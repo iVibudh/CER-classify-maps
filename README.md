@@ -23,6 +23,6 @@ Description of the folder structure:
 
 2. Validation Set: This folder contains the files which are used to validate the trained models and then identify the best performing model. 
 
-3. feature_extraction.py: This file contains the funtions which are used to extract the features in a PDF page. The features which are used to do the classification are: ...
+3. feature_extraction.py: This file contains the funtions which are used to extract the features in a PDF page. These features will be used to do classification.
 
 4. Classify Maps.ipynb: In this file first we read the PDF files in the Training Set fonder. We treat each page as a unique entity and then we use functions from feature_extraction.py to extract feaures for all the pages. Then all these pages with their features are split in to Training set and Test Set. Then we train the classification models and evaluate the model performances. Further we exctract the features for the PDF in the Validation Set folder in the same way. Then we evaluate the models and pick the best model. 
