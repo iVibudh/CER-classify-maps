@@ -1,6 +1,5 @@
 # Classify Maps  
-
-At CER, we receive applications from companies containing thousands of pages of documents.We want to develop a Machine Learning Algorithm to differentiate the pages which are maps (aka alignment sheets) from pages which are not maps. 
+At CER, we receive applications from companies containing thousands of pages of documents.We want to develop a Machine Learning Algorithm to differentiate the pages which are maps (aka alignment sheets) from pages which are not maps.
 
 ##### Sample Maps:
 
