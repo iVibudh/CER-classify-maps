@@ -1,5 +1,21 @@
-## Overview 
-In this section, we will be training models to classify pages from regulatory documents into maps (aka alignment sheet) or not maps. The Machine Learning models used for this task are XG Boost Classifier, Support Vector Classifier, Decision Treen Classifier,  Random Forest Classifier, Random Forest Regressor and XG Boost Regressor. The results from the regressor models are converted into binary output for the classification task, hence, I will be referring to these regression models as classification models. We will be comparing the accuracy and performance of the confusion matrix for these models on Test Set and Training Set. Then we will save the best performing model for future use. 
+# Classify Maps  
+
+At CER, we receive applications from companies containing thousands of pages of documents.We want to develop a Machine Learning Algorithm to differentiate the pages which are maps (aka alignment sheets) from pages which are not maps. 
+
+##### Sample Maps:
+
+
+##### Sample Non-Maps:
+
+
+## Approach 
+
+For the problem stated above we will be using classification algorithms and we will be using features such as area of images in a page, number of images in a page, count of words, we will also be checking if the page has certain words such as the word "North" or "N", "Figure", "Map", "Alignment Sheet" or "Sheet", "Legend", "scale", and "kilometers" or "km".  
+
+Once we have the features extracted we will be training Classification models such as, XG Boost Classifier, Support Vector Classifier, Decision Treen Classifier,  Random Forest Classifier, Random Forest Regressor and XG Boost Regressor. We will be comparing the accuracy and performance of the confusion matrix for these models on Test Set and Training Set. Then we will save the best performing model for future use.
+
+Note: The results from the regressor models are converted into binary output, hence, we will be referring these regression models classification models. 
+
 
 Description of the folder structure:
 1. Training Set: This folder contains the files which are used to prepare the training set and the test set. 
