@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
-# pdf
+
+# Portable Document Format pdf
 *.pdf
 
 #Python cache file
@@ -7,9 +8,6 @@
 
 #Model
 .sav
-
-# Portable Document Format
-*.pdf
 
 #Add versioned files
 venv/Include/
