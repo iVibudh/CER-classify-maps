@@ -3,16 +3,38 @@ from string import digits
 import fitz
 
 def count_words_in_str(long_str, keys):
+    """
+    It counts the sum of number of times each element in the array "keys" occurs in the string "long_str".
+
+    Parameters
+    -----------
+    long_str: The long string which needs to be checked for the count of words.
+
+    keys: The array of keys for which we need to count the occurrence of.
+
+    Returns
+    --------
+    count: The sum of number of times each element in the array Keys occurs in the string "long_str"
+
+    Sample Output:
+    --------------
+    count_words_in_str("vibudh rocks dh dh ddh",["vi", "dh"])
+    Output: 5
+    """
+
     count = 0
     for word in long_str.split():
         for key in keys:
             if key in word:
                 count = count + 1
     return(count)
-count_words_in_str("vibudh rocks dh dh ddh",["vi", "dh"])
 
 
 def area_of_imgblocks(imgblocks):
+    """
+    It adds the
+    """
+
     sum_areas = 0
     for imgblock in imgblocks:
         block_area = imgblock['width'] * imgblock['height']
